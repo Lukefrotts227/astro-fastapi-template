@@ -1,2 +1,3 @@
-# astro-fastapi-andmore
-just thought of the tech stack gonna see how it works. 
+# astro-fastapi-template
+- here is my template for an astro fastapi application
+  
