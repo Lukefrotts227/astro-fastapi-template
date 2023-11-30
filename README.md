@@ -1,15 +1,17 @@
 # astro-fastapi-template
-here is my template for an astro fastapi application
-# Getting started
-## Astro
+This template is designed for building applications with an Astro frontend and a FastAPI backend. It comes pre-configured with React, Tailwind CSS, react-router-dom, and Axios for the Astro part, and a basic FastAPI setup.
+## Getting started
+### Astro
 1. navigate to the my-app directory
 2. to install dependencies run `npm install`
-## fastapi
+3. this comes setup with react, tailwind, react-router-dom and axios
+4. feel free to add more with `npx astro add ...` or `npm install ...`
+### fastapi
 1. navigate to the api directory
 2. we have to get the virtual enviorment setup
 3. run `python -m venv venv` to generate the virtual enviorment
 4. to activate the enviorment we run the following command
-5. Depending on what command line you use:
+5. Depending on what command line you use run:
 
    bash
    ```bash
@@ -23,5 +25,6 @@ here is my template for an astro fastapi application
    ```powershell
    ./venv/Scripts/activate.ps1
    ```
-   
+6. run `pip install -r requirements.txt` to install the dependencies
+7. feel free to use `pip install ...` to install more python libraries
   
