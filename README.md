@@ -1,5 +1,7 @@
 # astro-fastapi-template
 This template is designed for building applications with an Astro frontend and a FastAPI backend. It comes pre-configured with React, Tailwind CSS, react-router-dom, and Axios for the Astro part, and a basic FastAPI setup.
+## Why This?
+We are using fastapi as it allows for building apis in the python programming language. It is easier to setup then django and it designed for building apis. We combine it with Astro a framework that allows for creating apps in a variety of frameworks.
 ## Getting started
 ### Astro
 1. navigate to the my-app directory
