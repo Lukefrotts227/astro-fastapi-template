@@ -27,4 +27,13 @@ This template is designed for building applications with an Astro frontend and a
    ```
 6. run `pip install -r requirements.txt` to install the dependencies
 7. feel free to use `pip install ...` to install more python libraries
+## In development
+### Astro
+1. run `npm run build` to prepare the app
+2. run `npm run dev` to start the development server
+### fastapi
+1. naturally your venv needs to be activated for this to work
+2. fastapi does not come with a builtin runtime like flask and django so we use uvicorn
+3. to start the development server run `uvicorn main:app --reload`
+
   
