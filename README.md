@@ -37,5 +37,11 @@ We are using fastapi as it allows for building apis in the python programming la
 1. naturally your venv needs to be activated for this to work
 2. fastapi does not come with a builtin runtime like flask and django so we use uvicorn
 3. to start the development server run `uvicorn main:app --reload`
+## More
+### Astro
+1. very effective for content drive websites
+2. can use any javascript framework with it
+### fastapi
+1. we handle most of the logic and authentication on the backend
 
   
