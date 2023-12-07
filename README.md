@@ -43,5 +43,6 @@ We are using fastapi as it allows for building apis in the python programming la
 2. can use any javascript framework with it
 ### fastapi
 1. we handle most of the logic and authentication on the backend
+2. we can be flexible with the database choice
 
   
