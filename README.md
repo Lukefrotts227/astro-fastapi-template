@@ -30,6 +30,7 @@ We are using fastapi as it allows for building apis in the python programming la
    ```
 6. run `pip install -r requirements.txt` to install the dependencies
 7. feel free to use `pip install ...` to install more python libraries
+8. For sqlalchemy `pip install sqlalchemy` which makes it easier to work with your sql database
 ## In development
 ### Astro
 1. run `npm run build` to prepare the app
