@@ -8,6 +8,7 @@ We are using fastapi as it allows for building apis in the python programming la
 2. to install dependencies run `npm install`
 3. this comes setup with react, tailwind, react-router-dom and axios
 4. feel free to add more with `npx astro add ...` or `npm install ...`
+5. go [here](https://astro.build/integrations/) to see integrations
 ### fastapi
 1. navigate to the api directory
 2. we have to get the virtual enviorment setup
