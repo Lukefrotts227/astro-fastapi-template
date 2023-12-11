@@ -1,10 +1,13 @@
 ---
 import Layout from '../layouts/index.astro'; 
+import HelloCard from '../components/react/helloCard.jsx'; 
+import There from '../components/astro/there.astro'; 
 ---
 
 <Layout title={"My App"}>
 	<main>
 		<h1 class="text-center text-2xl">My App</h1>
+		<HelloCard client:load="react"/>
 	</main>
 
 </Layout>
