@@ -7,7 +7,12 @@ import There from '../components/astro/there.astro';
 <Layout title={"My App"}>
 	<main>
 		<h1 class="text-center text-2xl">My App</h1>
-		<HelloCard client:load="react"/>
+		<div class="flex items-center justify-center p-8">
+			<HelloCard client:only="react"/>
+		</div>
+		<div class="flex items-center justify-center pt-8">
+			<There />
+		</div>
 	</main>
 
 </Layout>
