@@ -17,3 +17,7 @@ app.add_middleware(
 def read_root():
     return {"Hello": "World"}
 
+@app.get("/greeting")
+def greet(): 
+    return {"response": "hello there"}
+
