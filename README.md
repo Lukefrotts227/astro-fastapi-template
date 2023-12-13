@@ -49,5 +49,6 @@ We are using fastapi as it allows for building apis in the python programming la
 ## Deploying
 We need to deploy the fastapi server and the astro project separately
 ### fastapi
+#### Can be deployed on a traditional server
 ### Astro
 #### I personally will deploy using vercel
